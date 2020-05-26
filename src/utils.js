@@ -3,5 +3,5 @@ function check() {
 }
 
 function changeColor() {
-    document.getElementById("demo").style.color = "magenta";
+    document.getElementById("demo").style.color = "red";
 }
