@@ -1,11 +1,11 @@
 function check() {
-    document.getElementById("demo").innerHTML = "That's all folks";
+    document.getElementById("demo").innerHTML = "This is just the beginning";
 }
 
 function changeColorMouseOver() {
-    document.getElementById("demo").style.color = "red";
+    document.getElementById("demo").className = "special";
 }
 
 function changeColorMouseOut() {
-    document.getElementById("demo").style.color = "black";
+    document.getElementById("demo").className = "text";
 }
