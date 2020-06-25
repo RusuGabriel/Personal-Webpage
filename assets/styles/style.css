@@ -13,3 +13,20 @@
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
+
+
+html,body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  background: #222;
+  color: #aaa
+}
+
+h1,h2 {
+  font-weight: 200;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #888;
+  font-size: 2em;
+}
