@@ -1,4 +1,4 @@
-const target = new Date("Aug 1, 2020 00:00:00").getTime();
+const target = new Date("Sep 21, 2020 00:00:00").getTime();
 const dayInMilliseconds = 1000 * 60 * 60 * 24;
 const hoursInMilliseconds = 1000 * 60 * 60;
 const minutesInMilliseconds = 1000 * 60;
