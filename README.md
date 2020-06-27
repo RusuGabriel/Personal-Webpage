@@ -1,4 +1,7 @@
 <html>
+    <p align="center">
+        <img width="128" height="128" src="./assets/images/logo.png">
+    </p>
     <h1 align="center">Personal Webpage</h1>
 </html>
 
