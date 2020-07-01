@@ -5,7 +5,7 @@
 <h3 align="center">Personal-Webpage</h3>
 
 <p align="center"> 
-This website is a digital version of my traditional paper resume. It shows my education, skills,  previous positions and projects I've worked on. But, it also shows things I cannot accurately share using a paper resume(such as links to my projects)
+      In this project, I tried to showcase my achievements in a pleasant way building a personal webpage from scratch and learn something in the process 
     <br> 
 </p>
 
@@ -21,7 +21,7 @@ This website is a digital version of my traditional paper resume. It shows my ed
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+This website is a digital version of my traditional paper resume. It shows my education, skills,  previous positions and projects I've worked on. But, it also shows things I cannot accurately share using a paper resume(such as links to my projects)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
