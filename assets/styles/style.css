@@ -2,8 +2,14 @@
   background-color: #121212;
 }
 
-.text {
+.header-text {
   color: #CCCCCC;
+  margin-bottom: 5px;
+}
+
+.normal-text {
+  text-align: center;
+  font-size: 1.1em;
 }
 
 .centered {
