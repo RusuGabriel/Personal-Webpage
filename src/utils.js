@@ -87,7 +87,7 @@ window.onload = function () {
 
 function goTo(pageName) {
   let pageNameString = String(pageName);
-  document.location.href = pageNameString.toLowerCase() + '.html';
+  document.location.href = pageNameString.toLowerCase();
   initPage(pageNameString);
 }
 
