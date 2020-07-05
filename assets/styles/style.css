@@ -38,3 +38,19 @@ h2 {
   color: #888;
   font-size: 2em;
 }
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+li:hover {
+  color: rgb(255,204,0);
+}
