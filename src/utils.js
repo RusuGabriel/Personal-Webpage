@@ -87,5 +87,14 @@ window.onload = function () {
 
 function goTo(pageName) {
   let pageNameString = String(pageName);
-  document.location.href =  pageNameString.toLowerCase() + '.html';
+  document.location.href = pageNameString.toLowerCase() + '.html';
+  initPage(pageNameString);
+}
+
+function initPage(pageNameString) {
+  switch (pageNameString) {
+    case 'experience':
+      break;
+    default: console.log('page not found');
+  }
 }
