@@ -54,3 +54,7 @@ li {
 li:hover {
   color: rgb(255,204,0);
 }
+
+.nav-bar {
+  padding: 20px;
+}
