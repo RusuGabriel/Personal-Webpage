@@ -31,7 +31,7 @@ What things you need to install the software and how to install them.
 Give examples
 ```
 
-### Installing
+<!--### Installing
 A step by step series of examples that tell you how to get a development env running.
 
 Say what the step will be
@@ -69,7 +69,7 @@ Give an example
 Add notes about how to use the system.
 
 ## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+Add additional notes about how to deploy this on a live system.-->
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Visual Studio Code](https://code.visualstudio.com/) - code editor
