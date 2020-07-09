@@ -1,4 +1,4 @@
-class Project {
+export class Project {
     constructor(title, description, repoURL, iconURL) {
         this.title = String(title);
         this.repoURL = repoURL;

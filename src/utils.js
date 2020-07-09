@@ -20,7 +20,8 @@ let countDown = setInterval(() => {
 
 
   document.getElementById("time").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
-
+  document.getElementById("loading-wrapper").classList.add('hidden');
+  document.getElementById("content").classList.remove('hidden');
 }, 1000)
 
 
@@ -87,14 +88,5 @@ window.onload = function () {
 
 function goTo(pageName) {
   let pageNameString = String(pageName);
-  document.location.href = pageNameString.toLowerCase();
-  initPage(pageNameString);
-}
-
-function initPage(pageNameString) {
-  switch (pageNameString) {
-    case 'experience':
-      break;
-    default: console.log('page not found');
-  }
+  document.location.href =  pageNameString.toLowerCase() + '.html';
 }
