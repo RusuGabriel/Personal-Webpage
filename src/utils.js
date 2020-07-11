@@ -21,7 +21,7 @@ let countDown = setInterval(() => {
 
 
   document.getElementById("time").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
-  document.getElementById("loading-wrapper").classList.add('hidden');
+  document.getElementById("loading-wrapper").remove();
   document.getElementById("content").classList.remove('hidden');
   if(!started){
     started = !started;
@@ -76,6 +76,7 @@ TxtRotate.prototype.tick = function () {
 };
 
 function typing() {
+  setTimeout(null,1000);
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i = 0; i < elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
