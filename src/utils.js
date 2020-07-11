@@ -2,6 +2,7 @@ const target = new Date("Sep 21, 2020 00:00:00").getTime();
 const dayInMilliseconds = 1000 * 60 * 60 * 24;
 const hoursInMilliseconds = 1000 * 60 * 60;
 const minutesInMilliseconds = 1000 * 60;
+let started = false;
 
 let countDown = setInterval(() => {
   let current = new Date().getTime();
@@ -22,6 +23,11 @@ let countDown = setInterval(() => {
   document.getElementById("time").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
   document.getElementById("loading-wrapper").classList.add('hidden');
   document.getElementById("content").classList.remove('hidden');
+  if(!started){
+    started = !started;
+    typing();
+  }
+
 }, 1000)
 
 
@@ -69,7 +75,7 @@ TxtRotate.prototype.tick = function () {
   }, delta);
 };
 
-window.onload = function () {
+function typing() {
   var elements = document.getElementsByClassName('txt-rotate');
   for (var i = 0; i < elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-rotate');
